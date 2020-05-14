@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="Stylesheet" type="text/css" href="src/styles.css" />
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+  </head>
+  <body>
+      <h1>Mad Libs!</h1>
+      <h4>How To Play Volleyball.</h4>
+      <form
+      id="inputs">
+      <h5>
+          <label for="Body1"> Body Part </label>	
+			<input type="text" id="Body1" />  
+      <br>
+      </h5>
+        <p>
+          <label for="Adjective">Adjective</label>
+        <input type="text" id="Adjective"/>
+        <br>
+        </p>
+        <h4>
+        <label for="Noun"> Noun</label>
+        <input type="text" id="Noun"/>
+       <br>
+				</h4>
+       <h4>
+       <label for="verb"> Verb  </label>
+        <input type="text" id="verb"/>
+        <br>
+			 </h4>
+       <p>
+        <label for="Body2"> Body Part</label>
+        <input type="text" id="Body2"/>
+        <br>
+       </p>
+       <p>
+        <button id="nextBtn" 
+        type="button">Next</button>
+        <br>
+      </form>
+    <div class="wrapper" id="results">
+      <div><p> <textarea id="textbox" readonly></textarea></p></div>
+      <div class="rightal"><p>
+        <input
+        class="button"
+        type="reset"
+        id="resetB"
+        form="inputs"
+        value="Play Again"
+      />
+      </p></div>
+    </div>
+<script src="src/index.js"></script>
+  </body>
+</html>
